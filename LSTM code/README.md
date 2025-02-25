@@ -148,6 +148,10 @@ plt.ylabel('Stock Price')
 plt.legend()
 plt.show()
 ```
+**Results:**
+
+![LSTMv2_results](https://github.com/user-attachments/assets/c3491798-cc5c-4e6b-86c6-1c78d25a9c4b)
+
 
 ### Technical Summary
 
