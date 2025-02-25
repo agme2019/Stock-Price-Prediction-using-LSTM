@@ -55,7 +55,7 @@ The project uses historical stock data, for example, from AAPL. The dataset shou
 - `Symbol`
 - `YTD Gains`
 
-Additionally, the project calculates daily returns using the percentage change in the Close price. You can use your own dataset or download a dataset from Kaggle.
+Additionally, the project calculates daily returns using the percentage change in the Close price. You can use your own dataset or download a dataset from Kaggle. I used this link : https://www.kaggle.com/datasets/adhoppin/financial-data?resource=download
 
 ## Methodology
 
