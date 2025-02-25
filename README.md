@@ -1,5 +1,4 @@
 # Stock-Price-Prediction-using-LSTM
-Below is an example of a detailed GitHub README for your multi-step LSTM stock forecasting project. You can adjust sections or wording as needed.
 
 ---
 
@@ -158,4 +157,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-Feel free to modify the README to better fit your specific project details, results, and future directions. Enjoy building and refining your stock forecasting model!
