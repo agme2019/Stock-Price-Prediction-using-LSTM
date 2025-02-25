@@ -48,10 +48,27 @@ The code is organized into the following main sections:
 
 The script generates the following visualizations:
 1. `stock_price_prediction.png`: A plot showing the actual vs predicted stock prices.
+   ![stock_price_prediction](https://github.com/user-attachments/assets/a5a1768e-a240-429a-a767-72c3d95b5d63)
+
 2. `residuals.png`: A plot of the residuals (actual - predicted).
+   ![residuals](https://github.com/user-attachments/assets/d4b02628-18e4-481f-a63f-1d80d6007139)
+
 3. `histogram_of_residuals.png`: A histogram of the residuals.
+![histogram_of_residuals](https://github.com/user-attachments/assets/6059b907-219f-4cee-9586-762b879f2ffa)
 
 Additionally, it outputs summary statistics of the residuals.
+```
+Summary Statistics of Residuals:
+                 0
+count  1018.000000
+mean      4.149268
+std       3.727194
+min      -7.799156
+25%       1.200642
+50%       3.876472
+75%       6.627609
+max      16.873047
+```
 
 ## Limitations
 
