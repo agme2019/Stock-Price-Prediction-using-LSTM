@@ -101,14 +101,31 @@ Install the required packages using pip:
 ```bash
 pip install numpy pandas matplotlib tensorflow scikit-learn keras-tuner
 ```
-
 ## Usage
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/agme2019/Stock-Price-Prediction-using-LSTM.git
+    cd Stock-Price-Prediction-using-LSTM
+    ```
+
+2. **Install the required dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Run the script**:
+    ```python
+    python <code>.py
+    ```
+
+## More information :
 
 1. **Prepare the Dataset:**  
    Place your `AAPL.csv` file (or another stock CSV) in the project directory. Ensure the CSV includes the required columns.
 
 2. **Run the Code:**  
-   The repository contains a single Python script (e.g., `stock_forecasting.py`) that:
+   The repository contains python scripts (e.g., `<code>.py`) that:
    - Loads and preprocesses the data
    - Creates the multi-step forecasting dataset
    - Performs hyperparameter tuning using Keras Tuner
@@ -118,7 +135,7 @@ pip install numpy pandas matplotlib tensorflow scikit-learn keras-tuner
    To run the script, simply execute:
    
    ```bash
-   python stock_forecasting.py
+   python <code>.py
    ```
 
 3. **View Results:**  
@@ -146,24 +163,6 @@ The project provides visualizations to help understand the model's performance:
   
 - **Deployment:**  
   Develop a web-based dashboard (using Streamlit or Flask) to interactively display predictions and performance metrics.
-
-## Usage
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/agme2019/Stock-Price-Prediction-using-LSTM.git
-    cd Stock-Price-Prediction-using-LSTM
-    ```
-
-2. **Install the required dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Run the script**:
-    ```python
-    python <code>.py
-    ```
     
 ## Contributing
 
