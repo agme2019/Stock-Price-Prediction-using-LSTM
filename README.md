@@ -147,6 +147,24 @@ The project provides visualizations to help understand the model's performance:
 - **Deployment:**  
   Develop a web-based dashboard (using Streamlit or Flask) to interactively display predictions and performance metrics.
 
+## Usage
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/agme2019/Stock-Price-Prediction-using-LSTM.git
+    cd Stock-Price-Prediction-using-LSTM
+    ```
+
+2. **Install the required dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Run the script**:
+    ```python
+    python <code>.py
+    ```
+    
 ## Contributing
 
 Contributions, suggestions, and improvements are welcome! Feel free to fork the repository and submit a pull request. For major changes, please open an issue first to discuss your ideas.
