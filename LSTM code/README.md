@@ -1,4 +1,5 @@
 ### Information on model (code : model_LSTM_v2.py)
+This is the first LSTM code that was created. Approach, usage, results and drawbacks are discussed.
 #### Introduction
 This report details the process of building and training an LSTM (Long Short-Term Memory) model to predict stock prices, specifically using Apple's stock data (AAPL). The model utilizes historical closing prices to forecast future prices. The steps include data preparation, scaling, sequence creation, train-test split, model building, training, and evaluation.
 
@@ -167,7 +168,7 @@ Visual evaluation is performed using a plot, which is a common method to assess 
 
 ### Conclusion
 
-The LSTM model successfully predicts the stock prices using historical data. The steps involved include data preprocessing, scaling, sequence generation, train-test split, model building, training, and evaluation. The model's performance is visualized through a plot comparing actual and predicted prices. This approach demonstrates the potential of LSTM networks for time series forecasting in financial markets.
+The LSTM model attempts to predict the stock prices using historical data. The steps involved include data preprocessing, scaling, sequence generation, train-test split, model building, training, and evaluation. The model's performance is visualized through a plot comparing actual and predicted prices. From the performance evalution, it is observed that the model can deviate by +20/-10 from the actual stock price, which suggests that it is not a good model. This approach demonstrates the potential of LSTM networks for time series forecasting in financial markets.
 
 ### Future Improvements
 
@@ -180,4 +181,4 @@ Experimenting with different window sizes, the number of LSTM layers, and units 
 **Model Complexity:**
 Exploring more complex architectures or different types of recurrent layers may yield better results.
 
-This code serves as a solid foundation for stock price prediction using LSTM, with potential enhancements in areas like hyperparameter tuning, performance metrics, and model complexity.
+This code serves as a foundation for stock price prediction using LSTM, with potential enhancements in areas like hyperparameter tuning, performance metrics, and model complexity.
