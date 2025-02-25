@@ -67,12 +67,26 @@ y_pred = model.predict(X_test)
 y_pred_inv = scaler.inverse_transform(y_pred)
 y_test_inv = scaler.inverse_transform(y_test.reshape(-1, 1))
 
+# Calculate residuals
+residuals = y_test_inv - y_pred_inv
+
 # 7. Plot with Actual Dates
+
+# Plot actual vs predicted prices
 plt.figure(figsize=(12, 6))
 plt.plot(test_dates, y_test_inv, color='blue', label='Actual Stock Price')
 plt.plot(test_dates, y_pred_inv, color='red', label='Predicted Stock Price')
 plt.title('Stock Price Prediction Using LSTM')
 plt.xlabel('Date')
 plt.ylabel('Stock Price')
+plt.legend()
+plt.show()
+
+# Plot residuals
+plt.figure(figsize=(12, 6))
+plt.plot(test_dates, residuals, color='green', label='Residuals')
+plt.title('Residuals (Actual - Predicted)')
+plt.xlabel('Date')
+plt.ylabel('Residuals')
 plt.legend()
 plt.show()
