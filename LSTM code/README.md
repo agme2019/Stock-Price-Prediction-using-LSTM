@@ -151,9 +151,24 @@ plt.show()
 ```
 **Results:**
 Actual vs Model
-![LSTMv2_results](https://github.com/user-attachments/assets/c3491798-cc5c-4e6b-86c6-1c78d25a9c4b)
+![LSTMv2_results](https://github.com/user-attachments/assets/99071006-95c4-4e68-b5bd-75a600cb0336)
+
 Residuals (deviation from actual)
-![LSTMv2_residuals](https://github.com/user-attachments/assets/1a8bd8c9-fc71-4667-86d7-c2438f069b24)
+![LSTMv2_residuals](https://github.com/user-attachments/assets/58b3903d-d20a-4be4-9d63-f889e867d278)
+
+![histogram_of_residuals](https://github.com/user-attachments/assets/abac5e74-d787-4b37-b6ba-d89c8009c5f6)
+
+```
+         Residuals
+count  1018.000000
+mean      2.887467
+std       4.211425
+min     -12.772469
+25%       0.169813
+50%       2.267048
+75%       5.494450
+max      18.210495
+```
 
 ### Summary
 
