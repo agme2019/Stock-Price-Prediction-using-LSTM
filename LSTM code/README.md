@@ -149,11 +149,12 @@ plt.legend()
 plt.show()
 ```
 **Results:**
-
+Actual vs Model
 ![LSTMv2_results](https://github.com/user-attachments/assets/c3491798-cc5c-4e6b-86c6-1c78d25a9c4b)
+Residuals (deviation from actual)
+![LSTMv2_residuals](https://github.com/user-attachments/assets/1a8bd8c9-fc71-4667-86d7-c2438f069b24)
 
-
-### Technical Summary
+### Summary
 
 **Data Handling:**
 The code efficiently handles time series data, ensuring chronological order and appropriate preprocessing.
