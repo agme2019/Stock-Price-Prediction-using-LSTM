@@ -58,7 +58,7 @@ The project uses historical stock data, for example, from AAPL. The dataset shou
 Additionally, the project calculates daily returns using the percentage change in the Close price. You can use your own dataset or download a dataset from Kaggle. I used this link : https://www.kaggle.com/datasets/adhoppin/financial-data?resource=download
 
 ## Methodology
-The final prediction model is here : [LSTM PREDICT]([https://github.com/user/repo/blob/branch/other_file.md](https://github.com/agme2019/Stock-Price-Prediction-using-LSTM/tree/main/LSTM-predict))
+The final prediction model is here : [a link]([https://github.com/user/repo/blob/branch/other_file.md](https://github.com/agme2019/Stock-Price-Prediction-using-LSTM/tree/main/LSTM-predict))
 Initial model :
 Optimized model (tuned) :
 Optuna model (did not work very well)
