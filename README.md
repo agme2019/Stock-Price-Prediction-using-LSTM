@@ -87,6 +87,13 @@ Additionally, the project calculates daily returns using the percentage change i
 - **Keras Tuner Integration:**  
   Keras Tuner is used with a Random Search strategy to explore different hyperparameter configurations. The tuner evaluates models using a validation split and selects the best hyperparameters based on the lowest validation loss.
 
+## Results
+Future Returns Prediction (Scaled)
+![Figure_1](https://github.com/user-attachments/assets/57b54cc6-0a8d-4596-9b8d-3e1a91d71ef8)
+Forecasted AAPL stock price for next 5 days
+![Figure_2](https://github.com/user-attachments/assets/d5a34b1a-51cb-4914-a771-c2cbcf9e3105)
+
+
 ## Installation & Requirements
 
 ### Prerequisites
