@@ -1,6 +1,4 @@
-## scikit-learn Usage
-
-1. **Data Preprocessing with `MinMaxScaler`**:In this code, both scikit-learn and Keras (TensorFlow's high-level API) are being used together for a stock price prediction model. 
+In this code, both scikit-learn and Keras (TensorFlow's high-level API) are being used together for a stock price prediction model. 
 
 ## scikit-learn Usage
 
