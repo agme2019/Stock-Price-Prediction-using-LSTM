@@ -35,7 +35,7 @@ pip install numpy pandas matplotlib tensorflow scikit-learn keras-tuner
 2. Run the script:
 
 ```bash
-python stock_prediction.py
+python LSTM_tuned_predict.py
 ```
 
 ## Data Format
