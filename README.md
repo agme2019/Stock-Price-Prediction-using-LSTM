@@ -168,6 +168,7 @@ The project provides visualizations to help understand the model's performance:
 
 - **Feature Expansion:**  
   Integrate additional features such as technical indicators, macroeconomic variables, or sentiment analysis.
+  Implemented here : [LSTM-FEATURE ENGINEERING] (https://github.com/agme2019/LSTM-StockPrice-Advanced/tree/main)
   
 - **Multi-Step Model Enhancement:**  
   Experiment with deeper or alternative architectures (e.g., GRU, Seq2Seq with Attention) to further improve forecasting accuracy.
