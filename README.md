@@ -62,6 +62,7 @@ Additionally, the project calculates daily returns using the percentage change i
 - Initial model : [BASE MODEL](https://github.com/agme2019/Stock-Price-Prediction-using-LSTM/tree/main/LSTM%20code)
 - Optimized model (tuned) : [HYPER PARAMETER TUNING](https://github.com/agme2019/Stock-Price-Prediction-using-LSTM/tree/main/LSTM_optimized)
 - Optuna model (did not work very well): [LSTM OPTUNA](https://github.com/agme2019/Stock-Price-Prediction-using-LSTM/tree/main/LSTM-Optuna )
+- Optuna model for GPU computing with feature engineering: [LSTM OPTUNA GPU](https://github.com/agme2019/LSTM-Optuna-GPU)
 
 
 
